@@ -8,6 +8,7 @@ public class Main {
         task3(List.of("Привет","Привет","привет"));
         task4(List.of("один", "один", "два","два", "два", "три", "три", "три"));
     }
+
     private static void task1(List<Integer> nums) {
         System.out.println("Задача 1");
         for (Integer number : nums) {
